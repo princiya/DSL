@@ -1,17 +1,73 @@
-<!doctype html><html><head><meta charset="utf-8"><title>Storybook</title><meta name="viewport" content="width=device-width,initial-scale=1"><style>html, body {
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }</style><script>/* globals window */
-  /* eslint-disable no-underscore-dangle */
-  try {
-    if (window.parent !== window) {
-      window.__REACT_DEVTOOLS_GLOBAL_HOOK__ = window.parent.__REACT_DEVTOOLS_GLOBAL_HOOK__;
-      window.__VUE_DEVTOOLS_GLOBAL_HOOK__ = window.parent.__VUE_DEVTOOLS_GLOBAL_HOOK__;
-    }
-  } catch (e) {
-    // eslint-disable-next-line no-console
-    console.warn('unable to connect to parent frame for connecting dev tools');
-  }</script></head><body><div id="root"></div><script src="runtime~main.bf7f1bbd18bd2f1ec8df.bundle.js"></script><script src="vendors~main.ee2c62456afb22cf55d1.bundle.js"></script><script src="main.9c15b44d06aa5e7d315a.bundle.js"></script></body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>smartHelios Design System Library</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <section class="banner">
+      <div class="banner__content">
+        <div>
+          <img src="assets/dsl.png" />
+        </div>
+        <p class="banner__title">
+          The smartHelios Design System offers functional patterns (user
+          interface components) and perceptual patterns (typography, colours,
+          spacing and layouts, interaction and animations)
+        </p>
+      </div>
+      <div class="principles">
+        <!--<h3>Design Principles</h3>-->
+        <ul>
+          <li>
+            <b>Consistency</b> Interface components, icons, fonts should all be
+            consistent to create predictable experience.
+          </li>
+          <li>
+            <b>Accessibility</b> Content needs to be accessible to people with
+            disabilities and to work for everyone.
+          </li>
+          <li>
+            <b>Start with user needs</b> Don’t make assumptions, instead do
+            research and talk to users.
+          </li>
+          <li>
+            <b>Less is more</b> If functional and aesthetic elements don’t add
+            values to the user experience, forget them.
+          </li>
+          <li>
+            <b>Space</b> Our interface should create a calm and harmonious
+            atmosphere for the user. We can achieve it by leaving a lot of space
+            around the interface components. Messy interface causes stress for
+            our users.
+          </li>
+          <li>
+            <b>Be trustworthy and credible</b> Users should always be able to
+            trust and believe what we tell them.
+          </li>
+          <li>
+            <b>Don’t make the user think</b> Make the products simple, intuitive
+            and comprehensible.
+          </li>
+          <li>
+            <b>Content is king</b> Content creates the real value and makes our
+            product useful and meaningful.
+          </li>
+          <li>
+            <b>Every action has a reaction</b> Always give feedback to our
+            users' interaction.
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="gallery">
+      <div class="gallery__item">
+        <a href="storybook-static/index.html">Storybook</a>
+      </div>
+    </section>
+  </body>
+</html>
